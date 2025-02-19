@@ -35,6 +35,10 @@ nodeSelectors:
     label: omec-cp
     value: enabled
 
+prometheus:
+  enabled: true
+
+
 resources:
   enabled: true
   pcrf:
