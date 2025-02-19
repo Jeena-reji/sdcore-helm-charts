@@ -9,3 +9,9 @@ name: omec-sub-provision
 icon: https://guide.opencord.org/logos/cord.svg
 
 version: 2.0.0
+
+dependencies:
+  - name: prometheus
+    version: 25.7.0  # Use the latest stable version
+    repository: https://prometheus-community.github.io/helm-charts
+    condition: prometheus.enabled
