@@ -50,6 +50,11 @@ resources:
       cpu: 256m
       memory: 128Mi
 
+
+prometheus:
+  enabled: true
+
+
 config:
   coreDump:
     enabled: false
