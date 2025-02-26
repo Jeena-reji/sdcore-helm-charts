@@ -51,7 +51,6 @@ omec-sub-provision:
   #images:
   #  tags:
       #RAN SIM image
-
 prometheus:
   enabled: true
 
