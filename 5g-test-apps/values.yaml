@@ -18,6 +18,10 @@ mongodb:
   serviceAccount:
     create: false
 
+prometheus:
+  enabled: true
+
+
 resources:
   enabled: false
   dbtestapp:
