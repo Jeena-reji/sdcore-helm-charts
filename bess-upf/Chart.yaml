@@ -8,3 +8,9 @@ name: bess-upf
 icon: https://guide.opencord.org/logos/cord.svg
 
 version: 1.2.0
+
+dependencies:
+  - name: prometheus
+    version: "15.0.0"
+    repository: "https://prometheus-community.github.io/helm-charts"
+
