@@ -29,7 +29,7 @@ dependencies:
 
   - name: 5g-control-plane
     version: 2.2.0
-    repository: "https://jeena-reji.github.io/helm/"
+    repository: "file://../5g-control-plane"
     condition: 5g-control-plane.enable5G
 
   - name: bess-upf
