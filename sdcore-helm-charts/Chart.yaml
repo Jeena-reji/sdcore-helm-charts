@@ -14,6 +14,7 @@ maintainers:
   - name: SD-Core Support
     email: dev@lists.aetherproject.org
 
+
 dependencies:
   - name: omec-control-plane
     version: "0.13.0"
